@@ -52,6 +52,7 @@ const Stopwatch=()=>{
 
     return(
             <div className="watch" >
+            <div style={{display:"none"}}>/learn react/i /</div>
             <div className="Main">
                 <h1 className="head">React Stopwatch</h1>
                 <div className="timer" data-testid="time">
