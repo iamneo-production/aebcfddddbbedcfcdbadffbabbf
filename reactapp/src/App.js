@@ -1,14 +1,14 @@
+import './App.css';
 import Stopwatch from "./components/Stopwatch/Stopwatch";
-import React, { Component } from "react";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Stopwatch />
+function App() {
+  return (
+    <div className="App">
+      <div>
+        <Stopwatch/>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;
